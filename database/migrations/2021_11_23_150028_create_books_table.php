@@ -3,6 +3,7 @@
 use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
+use PharIo\Manifest\Author;
 
 class CreateBooksTable extends Migration
 {
@@ -15,6 +16,10 @@ class CreateBooksTable extends Migration
     {
         Schema::create('books', function (Blueprint $table) {
             $table->id();
+            $table->string('author');
+            $table->string('title');
+            $table->string('year');
+            $table->string('class');
             $table->timestamps();
         });
     }
