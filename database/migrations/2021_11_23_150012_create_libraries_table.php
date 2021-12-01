@@ -16,7 +16,7 @@ class CreateLibrariesTable extends Migration
         Schema::create('libraries', function (Blueprint $table) {
             $table->id();
             $table->string('book_title');
-            $table->string('student_id');
+            $table->string('student_id')->nullable();
             $table->string('shelf_number');
             $table->string('book_borrowed'); 
             $table->string('date_borrowed');

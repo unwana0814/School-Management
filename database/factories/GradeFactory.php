@@ -2,10 +2,10 @@
 
 namespace Database\Factories;
 
-use App\Models\Grades;
+use App\Models\Grade;
 use Illuminate\Database\Eloquent\Factories\Factory;
 
-class GradesFactory extends Factory
+class GradeFactory extends Factory
 {
     /**
      * The name of the factory's corresponding model.

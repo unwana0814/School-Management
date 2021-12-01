@@ -2,11 +2,11 @@
 
 namespace App\Policies;
 
-use App\Models\Grades;
+use App\Models\Grade;
 use App\Models\User;
 use Illuminate\Auth\Access\HandlesAuthorization;
 
-class GradesPolicy
+class GradePolicy
 {
     use HandlesAuthorization;
 

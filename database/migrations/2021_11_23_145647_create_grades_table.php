@@ -18,8 +18,8 @@ class CreateGradesTable extends Migration
             $table->string('name');
             $table->string('type');
             $table->string('score');
-            $table->string('remark');
-            $table->string('action');
+            // $table->string('remark');
+            // $table->string('action');
             $table->timestamps();
         });
     }
